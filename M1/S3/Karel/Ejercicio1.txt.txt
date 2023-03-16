@@ -1,0 +1,40 @@
+class program {
+    program () {
+        // Escribe un programa de Karel para que se mueva a la esquina
+        // de la 1ªCalle con la 1ªAvenida y se desconecte, asumiendo que
+        // empieza en la esquina de la Calle 15 y la Avenida 15 con 
+        // orientación hacia el Oeste. Guarda el programa con el 
+        // nombre primerPrograma.txt. Como mundo utiliza el guardado
+        // anteriormente con el nombre NuevoMundo.mdo.
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        turnleft();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        turnoff();
+    }
+    }
