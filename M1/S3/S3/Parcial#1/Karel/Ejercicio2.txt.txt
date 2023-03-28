@@ -1,0 +1,51 @@
+class program {
+    program () {
+    // ejercicio 2 :Cada mañana Karel se levanta de la cama y tiene 
+    //que recoger el periódico, representado por un zumbador, 
+    //que está en el porche de la casa. Escribe un programa que 
+    //ordene a Karel que recoja el periódico y lo lleve de vuelta 
+    //a la cama. La situación inicial es la de la imagen de abajo, 
+    //y la situación final debe tener a Karel de vuelta en la cama 
+    //(misma esquina, misma dirección que cuando empezó) con el periódico 
+    //(zumbador en su mochila). Crea un mundo como el de la imagen y 
+    //guárdalo como “periodico.mdo”.
+    
+    //ida
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    move();
+    turnleft();
+    move();
+    move();
+    turnleft();
+    move();
+    move();
+    turnleft();
+    move();
+    pickbeeper();
+    //vuelta
+    turnleft();
+    move();
+    turnleft();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    move();
+    
+    
+      turnoff();
+    }
+}
