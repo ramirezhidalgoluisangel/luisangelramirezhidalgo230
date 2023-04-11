@@ -1,0 +1,22 @@
+import java.io.*;
+class VectorImparPar
+ {
+    public static void main(String[] args)
+    {
+        int[] listaNumeros = { 0,-9, 4, -1, 3, 7};
+        for (int i = 0; i < listaNumeros.length; i++)  {
+            System.out.print(" " + listaNumeros[i]);
+             }
+
+         //Ciclo para modificar arreglo original (sumar el valor de 3 a cada valor).
+        for (int i = 0; i < listaNumeros.length; i++)  {
+            System.out.print(" " + listaNumeros[i]);
+             }
+
+          System.out.println(" ");
+         //Ciclo para mostrar arreglo modificado.
+        for (int i = 0; i < listaNumeros.length; i++)  {
+            System.out.print(" " + listaNumeros[i]);
+             }
+    }
+ }
