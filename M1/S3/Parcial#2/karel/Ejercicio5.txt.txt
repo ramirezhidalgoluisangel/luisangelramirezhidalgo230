@@ -1,0 +1,65 @@
+class program {
+    program () {
+    
+    //Ejercicio 5 :  Karel tiene la tarea de 
+    //alinear una colección de zumbadores en 
+    //la primera Calle que ha sido distribuida 
+    //desigualmente. Empieza en la 1ªCalle y la 
+    //15ªAvenida y está orientado al Oeste. Se 
+    //supone que en cada esquina hay exactamente 
+    //un zumbador. Sin embargo, Karel puede 
+    //encontrar 0, 1 o 2 zumbadores en cualquier 
+    //intersección. Su tarea es asegurar que 
+    //exactamente hay un zumbador antes de 
+    //continuar hacia la siguiente esquina. 
+    //Cuando llega a la esquina 1,1 debe apagarse.
+    
+ 
+    while (frontIsClear)
+    {
+    if (notNextToABeeper)
+    {
+    putbeeper();
+    move();
+    }//if
+    else
+    {
+    if (nextToABeeper)
+    {
+    pickbeeper();
+    if (nextToABeeper)
+    {
+    move();
+    }//if
+    else
+    {
+    putbeeper();
+    move();
+    }// else
+    }// if
+    }// else
+    }//while
+    if (notNextToABeeper)
+    {
+    putbeeper();
+    } //if
+    else
+    {
+    if (nextToABeeper)
+    {
+    pickbeeper();
+    if (nextToABeeper)
+    {
+    turnoff();
+    }//if
+    else
+    {
+    putbeeper();
+    } // else
+    }// if
+    }// else
+    turnoff();
+    }// program
+    }// class
+  
+   
