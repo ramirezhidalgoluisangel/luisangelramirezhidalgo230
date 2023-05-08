@@ -26,6 +26,7 @@ int par = 0, impar = 0, parimpar = 0;
         //Salida de datos
         System.out.println("Cantidad de numeros impares: "+impar);
         System.out.println("Cantidad de numeros pares: "+par);
+   }
 }
 
 

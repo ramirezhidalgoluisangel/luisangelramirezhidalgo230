@@ -1,5 +1,5 @@
 import java.io.*;
-class NumeroMayor
+class NumeroMayor2
 {
     public static void main(String[] yo)
     {
