@@ -1,6 +1,6 @@
 
 import java.io.*;
-public class numerosMenores
+class numerosMenores
 {
     public static void main(String[] yo)
     {

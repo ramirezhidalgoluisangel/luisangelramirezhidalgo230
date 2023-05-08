@@ -1,5 +1,5 @@
-import java.io*;
-public class ParImpar
+import java.io.*;
+class ParImpar
 {
     public static void main(String[] args)
     {

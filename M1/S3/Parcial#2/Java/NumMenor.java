@@ -1,5 +1,5 @@
 import java.io.*;
-public class NumeroMenor
+class NumeroMenor
 {
     public static void main(String[] yo)
     {

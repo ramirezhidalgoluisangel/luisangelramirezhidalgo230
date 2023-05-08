@@ -1,5 +1,5 @@
 import java.io.*;
-public class CicloFor
+class CicloFor
 {
     public static void main (String[] args)
     {

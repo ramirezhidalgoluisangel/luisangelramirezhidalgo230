@@ -1,5 +1,5 @@
 import java.io.*;
-public class Longitud
+class Longitud
 {
     public static void main(String[] args)
     {
